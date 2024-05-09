@@ -1,3 +1,0 @@
-# *.csv filter=lfs diff=lfs merge=lfs -text
-# *.iso filter=lfs diff=lfs merge=lfs -text
-S&P_500_Time2.csv filter=lfs diff=lfs merge=lfs -text
