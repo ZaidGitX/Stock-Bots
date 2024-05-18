@@ -1,6 +1,6 @@
 ### StockBots Overview
 
-This project focusing on developing iterative models is a comprehensive analysis and toolset focused on the stock market, specifically the S&P 500. It includes three main components: Classification, Time Series Forecasting, and a Recommender System. Each component serves a distinct purpose, from analyzing and categorizing stocks to forecasting future prices and recommending investment opportunities. The main components of this project fall into three distinct iterative versions: Version 1.0 (Classification), Version 2.0 (Time Series), and Version 3.0 (Recommender System).
+This project focuses on developing iterative models by conducting a comprehensive analysis of stock market data to enable the production of toolsets that concentrate on assisting investors in facilitating strategic investment decisions, specifically on stocks within the S&P 500 index. It includes three main components: Classification, Time Series Forecasting, and a Recommender System. Each component serves a distinct purpose, from analyzing and categorizing stocks to forecasting future prices and recommending investment opportunities. The main components of this project fall into three distinct iterative versions: Version 1.0 (Classification), Version 2.0 (Time Series), and Version 3.0 (Recommender System).
 
 ### 1. Classification
 
