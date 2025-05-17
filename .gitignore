@@ -6,8 +6,6 @@
 .env.local
 .env.*.local
 
-# Ignore all CSV files
-*.csv
 
 # Optional: Ignore node modules (if it's a JS/Node project)
 node_modules/
