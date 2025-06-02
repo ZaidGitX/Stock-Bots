@@ -1,21 +1,27 @@
 import pandas as pd
-import os
+from pathlib import Path
 
 
 #Reading in the two main pre-processed ready to go datasets we will work with
-fundamentals_df = pd.read_csv("fundamentals_df.csv")
-final_time_df = pd.read_csv("final_time_df.csv")
+
+final_time_directory = Path(__file__).resolve().parent / "data_csvs" / "final_time_df.csv"
 
 
-def load_final_time_df():
-    filepath_final_time_df = os.path.join("data_csvs", final_time_df)
-    return filepath_final_time_df
+
+fundamentals_df_directory = Path(__file__).resolve().parent / "data_csvs" / "fundamentals_df.csv"
 
 
-def load_fundamentals_df():
-    filepath_fundamentals_df = os.path.join("data_csvs", fundamentals_df)
-    return filepath_fundamentals_df
 
+
+
+
+def load_final_time_df() -> pd.DataFrame:
+    return pd.read_csv(final_time_directory)
+
+
+
+def load_fundamentals_df() -> pd.DataFrame:
+    return pd.read_csv(fundamentals_df_directory)
 
 
 
