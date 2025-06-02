@@ -26,4 +26,3 @@ def load_fundamentals_df() -> pd.DataFrame:
 
 
 
-
