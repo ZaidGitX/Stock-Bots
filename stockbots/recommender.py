@@ -3,7 +3,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from surprise import Dataset, Reader, SVD
 from surprise.model_selection import cross_validate
 from sklearn.feature_extraction.text import TfidfVectorizer
-from data_loader import load_fundamentals_df
+from data_csvs.data_loader import load_fundamentals_df
 import seaborn as sns
 import matplotlib.pyplot as plt
 

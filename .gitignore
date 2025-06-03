@@ -1,23 +1,35 @@
 # macOS system files
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
 
 # Environment and config files
 .env
 .env.local
 .env.*.local
 
-
-# Optional: Ignore node modules (if it's a JS/Node project)
-node_modules/
-
-# Optional: Ignore Python cache and virtual environment files (if applicable)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Virtual envs
 env/
 venv/
 ENV/
+.venv/
 
-# Optional: Ignore logs
-*.log
+# Node (if you ever add a React front-end here)
+node_modules/
+
+# Python byte-code / caches
+__pycache__/
+*.py[cod]
+
+# Model artefacts
+*.pkl
+*.joblib
+
+# IDE / Editor junk
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
