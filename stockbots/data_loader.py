@@ -26,4 +26,31 @@ def load_fundamentals_df() -> pd.DataFrame:
 
 
 
+def get_ticker_price(ticker: str) -> pd.Series:
+    df = load_final_time_df()
+    if ticker not in df:
+        raise KeyError(f"{ticker} not included. Please try a ticker within the S&P 500 rotation of 2022.")
+    return df[ticker]
+
+
+def load_covered_tickers() -> list[str]:
+    return sorted(set(load_final_time_df().columns[:-1]).intersection(load_fundamentals_df().index))
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

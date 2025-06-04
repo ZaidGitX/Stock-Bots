@@ -5,7 +5,7 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tools.eval_measures import rmse
 import matplotlib.pyplot as plt
 
-from data_csvs.data_loader import load_final_time_df
+from stockbots.data_loader import load_final_time_df
 
 
 final_time_df = load_final_time_df()
