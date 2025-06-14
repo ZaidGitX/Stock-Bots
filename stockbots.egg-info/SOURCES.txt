@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+stockbots/__init__.py
+stockbots/data_loader.py
+stockbots/recommender.py
+stockbots/timeseries.py
+stockbots.egg-info/PKG-INFO
+stockbots.egg-info/SOURCES.txt
+stockbots.egg-info/dependency_links.txt
+stockbots.egg-info/requires.txt
+stockbots.egg-info/top_level.txt
